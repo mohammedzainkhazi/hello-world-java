@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-	@GetMapping(path = "/")
+	@GetMapping(path = "/zain")
 	public String helloWorld() {
-		return "{\"message\":\"Hello World Java v1\"}";
+		return "{\"message\":\"Hello World ZAIN! \"}";
 	}
 }
